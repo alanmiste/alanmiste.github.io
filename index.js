@@ -108,7 +108,7 @@ function copyFunction() {
   navigator.clipboard.writeText(copyText.value);
   
   let tooltip = document.getElementById("myTooltip");
-  tooltip.innerHTML = "Email Copied: ";
+  tooltip.innerHTML = "Email Copied";
 }
 
 function outFunc() {
