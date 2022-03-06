@@ -243,11 +243,26 @@
       <h2 class="heading heading-sec heading-sec__mb-med">
         <span class="heading-sec__main heading-sec__main--lt">Contact</span>
         <span class="heading-sec__sub heading-sec__sub--lt">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-          tempora explicabo quae quod deserunt eius sapiente
+          Feel free to email me!
         </span>
       </h2>
-      <div class="contact__form-container">
+      <div class="heading-sec__main heading-sec__main--lt" class="skills">
+        <div>
+          <input class="emailInput" value="alanhsnn@gmail.com" id="myInput" readonly>
+          <div class="tooltip">
+            <button class="btn btn--theme contact__btn" onclick="copyFunction()" onmouseout="outFunc()">
+              <span class="tooltiptext" id="myTooltip">Click to copy</span>
+              alanhsnn@gmail.com
+            </button>
+          </div>
+
+        </div>
+        <button onclick="location.href='mailto:alanhsnn@gmail.com';" class="btn btn--theme contact__btn">open my defualt
+          Email app</button>
+
+      </div>
+
+      <!-- <div class="contact__form-container">
         <form action="#" class="contact__form">
           <div class="contact__form-field">
             <label class="contact__form-label" for="name">Name</label>
@@ -268,7 +283,7 @@
             Submit
           </button>
         </form>
-      </div>
+      </div> -->
     </div>
   </section>
   <footer class="main-footer">

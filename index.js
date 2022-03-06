@@ -98,3 +98,22 @@ window.onload = function() {
 };
 
 // ---------------------
+
+//------- Copy Function -----
+
+function copyFunction() {
+  let copyText = document.getElementById("myInput");
+  copyText.select();
+  // copyText.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(copyText.value);
+  
+  let tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Email Copied: ";
+}
+
+function outFunc() {
+  let tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copy to clipboard";
+}
+
+//----------------------------
