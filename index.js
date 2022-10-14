@@ -63,7 +63,7 @@ TxtType.prototype.tick = function() {
   this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
   let that = this;
-  let delta = 200 - Math.random() * 100;
+  let delta = 100 - Math.random() * 100;
 
   if (this.isDeleting) { delta /= 2; }
 
