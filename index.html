@@ -1,348 +1,543 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/x-icon" href="./assets/png/am-favlogo.ico" />
+    <title>Alan Miste</title>
+    <meta name="description" content="Portfolio Template for Developer" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="icon" type="image/x-icon" href="./assets/png/am-favlogo.ico">
-  <title>Alan Miste</title>
-  <meta name="description" content="Portfolio Template for Developer" />
+    <link rel="stylesheet" href="css/style.css" />
 
-  <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-    rel="stylesheet" />
-</head>
-
-<body>
-  <header class="header">
-    <div class="header__content">
-      <div class="header__logo-container">
-        <div class="header__logo-img-cont">
-          <img src="./assets/jpeg/AlanMiste-ProPic.png" alt="Alan Miste Logo Image" class="header__logo-img" />
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/jpeg/AlanMiste-ProPic.png"
+              alt="Alan Miste Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <h1 class="header__logo-sub">Alan Miste</h1>
         </div>
-        <h1 class="header__logo-sub">Alan Miste</h1>
-      </div>
-      <div class="header__main">
-        <ul class="header__links">
-          <li class="header__link-wrapper">
-            <a href="./index.html" class="header__link"> Home </a>
-          </li>
-          <li class="header__link-wrapper">
-            <a href="./index.html#about" class="header__link">About </a>
-          </li>
-          <li class="header__link-wrapper">
-            <a href="./index.html#projects" class="header__link">
-              Projects
-            </a>
-          </li>
-          <li class="header__link-wrapper">
-            <a href="./index.html#contact" class="header__link"> Contact </a>
-          </li>
-        </ul>
-        <div class="header__main-ham-menu-cont">
-          <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
-          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
-            class="header__main-ham-menu-close d-none" />
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
         </div>
       </div>
-    </div>
-    <div class="header__sm-menu">
-      <div class="header__sm-menu-content">
-        <ul class="header__sm-menu-links">
-          <li class="header__sm-menu-link">
-            <a href="./index.html"> Home </a>
-          </li>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
 
-          <li class="header__sm-menu-link">
-            <a href="./index.html#about"> About </a>
-          </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
 
-          <li class="header__sm-menu-link">
-            <a href="./index.html#projects"> Projects </a>
-          </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
 
-          <li class="header__sm-menu-link">
-            <a href="./index.html#contact"> Contact </a>
-          </li>
-        </ul>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </header>
-  <section class="home-hero">
-    <div class="home-hero__content">
-      <h2 class="heading-primary">
-        <a href="" class="typewrite" data-period="2000"
-          data-type='[ "Hey there! 👋, I&apos;m Alan.","Java-Sowftware Developer","MERN-Stack Developer","Front-End Developer", "I ❤️️ Coding.", "I ❤️️ Design."]'>
-          <span class="wrap"></span>
-        </a>
-      </h2>
-      <div class="home-hero__cta">
-        <a href="./#projects" class="btn btn--bg">Projects</a>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h2 class="heading-primary">
+          <a
+            href=""
+            class="typewrite"
+            data-period="2000"
+            data-type='[ "Hey there! 👋, I&apos;m Alan.","Java-Sowftware Developer","MERN-Stack Developer","Front-End Developer", "I ❤️️ Coding.", "I ❤️️ Design."]'
+          >
+            <span class="wrap"></span>
+          </a>
+        </h2>
+        <div class="home-hero__cta">
+          <a href="./#projects" class="btn btn--bg">Projects</a>
+        </div>
       </div>
-    </div>
-    <div class="home-hero__socials">
-      <div class="home-hero__social">
-        <a href="https://www.linkedin.com/in/alanhassan" target="_blank" class="home-hero__social-icon-link">
-          <img src="./assets/png/linkedin-ico.png" alt="icon" class="home-hero__social-icon" />
-        </a>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a
+            href="https://www.linkedin.com/in/alanhassan"
+            target="_blank"
+            class="home-hero__social-icon-link"
+          >
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="https://github.com/alanmiste"
+            target="_blank"
+            class="home-hero__social-icon-link"
+          >
+            <img
+              src="./assets/png/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="https://twitter.com/AlanMiste"
+            target="_blank"
+            class="home-hero__social-icon-link"
+          >
+            <img
+              src="./assets/png/twitter-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="https://www.facebook.com/alanmiste"
+            target="_blank"
+            class="home-hero__social-icon-link"
+          >
+            <img
+              src="./assets/png/facebook-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="https://www.instagram.com/alanmiste"
+            target="_blank"
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+          >
+            <img
+              src="./assets/png/insta-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
       </div>
-      <div class="home-hero__social">
-        <a href="https://github.com/alanmiste" target="_blank" class="home-hero__social-icon-link">
-          <img src="./assets/png/github-ico.png" alt="icon" class="home-hero__social-icon" />
-        </a>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
       </div>
-      <div class="home-hero__social">
-        <a href="https://twitter.com/AlanMiste" target="_blank" class="home-hero__social-icon-link">
-          <img src="./assets/png/twitter-ico.png" alt="icon" class="home-hero__social-icon" />
-        </a>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            I graduated with a BA in Computer Systems since 2010, I worked for
+            four years as a Technical Support Officer in Syria before I had to
+            emigrate. I am passionate about programming, I learned some
+            programming languages at university such as C, C++, C# and Java.
+            After I moved to Germany I took courses in Web Development and Java
+            Development, I can now describe myself as a Junior MERN-stack /
+            Java-Sowftware developer.
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Hey! It's
+                <strong>Alan Miste/Hassan</strong>
+                and I'm a
+                <strong> Frontend/MERN-Stack Web Developer </strong> ,<strong>
+                  Java Software Developer
+                </strong>
+                located in Germany. During the period of further education
+                <strong>(Weiterbildung)</strong> within the
+                <strong>
+                  web development course and Java-Sowftware development </strong
+                >, I completed several projects were as a training, in which web
+                development techniques were used, whether for the
+                <strong>front-end</strong> or <strong>back-end</strong>.
+              </p>
+              <p class="about__content-details-para">
+                I'm a bit of a digital product geek. Over the years, I've used
+                hundreds of web and mobile apps. I'm passionate about
+                programming and coding. I also have hobbies in designing and
+                editing photos, in addition to some other hobbies outside the
+                technical field. I am also interested in astronomy. Feel free to
+                <strong>contact</strong> me here.
+              </p>
+            </div>
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">Java</div>
+              <div class="skills__skill">Spring Framework</div>
+              <div class="skills__skill">TypeScript</div>
+              <div class="skills__skill">JavaScript - ES6</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">SASS</div>
+              <div class="skills__skill">Rest APIs</div>
+              <div class="skills__skill">GIT/Github</div>
+              <div class="skills__skill">CI/CD</div>
+              <div class="skills__skill">MongoDB</div>
+              <div class="skills__skill">MySql</div>
+              <div class="skills__skill">Node.js</div>
+              <div class="skills__skill">Docker</div>
+              <div class="skills__skill">Wordpress</div>
+              <div class="skills__skill">Photoshop</div>
+              <div class="skills__skill">Illustrator</div>
+              <div class="skills__skill">Lightroom</div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="home-hero__social">
-        <a href="https://www.facebook.com/alanmiste" target="_blank" class="home-hero__social-icon-link">
-          <img src="./assets/png/facebook-ico.png" alt="icon" class="home-hero__social-icon" />
-        </a>
-      </div>
-      <div class="home-hero__social">
-        <a href="https://www.instagram.com/alanmiste" target="_blank"
-          class="home-hero__social-icon-link home-hero__social-icon-link--bd-none">
-          <img src="./assets/png/insta-ico.png" alt="icon" class="home-hero__social-icon" />
-        </a>
-      </div>
-    </div>
-    <div class="home-hero__mouse-scroll-cont">
-      <div class="mouse"></div>
-    </div>
-  </section>
-  <section id="about" class="about sec-pad">
-    <div class="main-container">
-      <h2 class="heading heading-sec heading-sec__mb-med">
-        <span class="heading-sec__main">About Me</span>
-        <span class="heading-sec__sub">
-          I graduated with a BA in Computer Systems since 2010, I worked for four years as a Technical Support Officer
-          in Syria before I had to emigrate. I am passionate about programming, I learned some programming languages at
-          university such as C, C++, C# and Java.
-          After I moved to Germany I took courses in Web Development and Java Development, I can now describe myself as a 
-          Junior MERN-stack / Java-Sowftware developer.
-        </span>
-      </h2>
-      <div class="about__content">
-        <div class="about__content-main">
-          <h3 class="about__content-title">Get to know me!</h3>
-          <div class="about__content-details">
-            <p class="about__content-details-para">
-              Hey! It's
-              <strong>Alan Miste/Hassan</strong>
-              and I'm a <strong> Frontend/MERN-Stack Web Developer </strong> ,<strong> Java Software Developer </strong> located in
-              Germany. During the period of further education <strong>(Weiterbildung)</strong> within the
-              <strong> web development course and Java-Sowftware development </strong>,
-              I completed several projects were as a training, in which web development techniques were used,
-              whether for the <strong>front-end</strong> or <strong>back-end</strong>.
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            These are some of my projects that I worked on to increase my
+            experience.
+          </span>
+        </h2>
 
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/SgcScreenshot-7.jpg"
+                alt="Space Geeks Corner Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Space Geeks Corner</h3>
+              <p class="projects__row-content-desc">
+                It is an application that allows viewing of various images
+                fetched from NASA via its API. The logged in user can add photos
+                to his favourites or delete them if he no longer wants them. He
+                can also create T-shirts Mockup from the photos he likes with
+                just one click!
+              </p>
+              <a
+                href="./spacegeekscorner.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >More...</a
+              >
+            </div>
+          </div>
+
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/Redux-Shopping-Cart-Screenshot.jpg"
+                alt="Redux Shopping Cart Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Redux Shopping Cart</h3>
+              <p class="projects__row-content-desc">
+                Redux Shopping Cart is a simple Web App, it was just to apply
+                what I learned about Redux Toolkit.
+              </p>
+              <a
+                href="./reduxshoppingcart.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >More...</a
+              >
+            </div>
+          </div>
+
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-mockup-example.jpeg"
+                alt="My-Blog Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">My-Blog</h3>
+              <p class="projects__row-content-desc">
+                AM Blog is a simple blog, consisting of a home page to display
+                all posts, an about page, and a page to add new posts.
+              </p>
+              <a
+                href="./my-blog.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >More...</a
+              >
+            </div>
+          </div>
+
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/TodoAppScreenshot.jpg"
+                alt="Todo-App-Java Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Todo-App-Java</h3>
+              <p class="projects__row-content-desc">
+                Todo-App is a simple application, consisting of a field for
+                entering tasks and three sections for each case, Open, In
+                progress and Done. In addition to a Nav bar.
+              </p>
+              <a
+                href="./todo-java-app.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >More...</a
+              >
+            </div>
+          </div>
+
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project1.jpg"
+                alt="Project 1 Screenshot. Full-Stack Cookbook with React"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Cookbook</h3>
+              <p class="projects__row-content-desc">
+                A Cookbook site is a simple site for displaying cooking recipes.
+                I coded it completely (front-end and back-end).
+              </p>
+              <a
+                href="./project-1.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >More...</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project2.jpg"
+                alt="Project 2 Screenshot. Todo List"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Todo List</h3>
+              <p class="projects__row-content-desc">
+                Todo list app for writing daily tasks. Use your browser to
+                record your daily tasks instead of pen and paper.
+              </p>
+              <a
+                href="./project-2.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >More...</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project3.jpg"
+                alt="Project 3 Screenshot. Simple Calculator"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Simple Calculator</h3>
+              <p class="projects__row-content-desc">
+                It's a simple calculator app with React.
+              </p>
+              <a
+                href="./project-3.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >More...</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Feel free to email me!
+          </span>
+        </h2>
+        <div class="heading-sec__main heading-sec__main--lt" class="skills">
+          <div>
+            <input
+              class="emailInput"
+              value="alanhsnn@gmail.com"
+              id="myInput"
+              readonly
+            />
+            <div class="tooltip">
+              <button
+                class="btn btn--theme contact__btn"
+                onclick="copyFunction()"
+                onmouseout="outFunc()"
+              >
+                <span class="tooltiptext" id="myTooltip">Click to copy</span>
+                alanhsnn@gmail.com
+              </button>
+            </div>
+          </div>
+          <button
+            onclick="location.href='mailto:alanhsnn@gmail.com';"
+            class="btn btn--theme contact__btn"
+          >
+            open my defualt Email app
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/alanhassan"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/alanmiste"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://twitter.com/AlanMiste"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.facebook.com/alanmiste"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/facebook-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.instagram.com/alanmiste"
+              >
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Alan Miste</h4>
+            <p class="main-footer__short-desc">
+              Java-Software / MERN-Stack Developer
             </p>
-            <p class="about__content-details-para">
-              I'm a bit of a digital product geek. Over the years, I've used hundreds of web and mobile apps. I'm
-              passionate about programming and coding. I also have hobbies in designing and editing photos,
-              in addition to some other hobbies outside the technical field.
-              I am also interested in astronomy. Feel free to
-              <strong>contact</strong> me here.
-            </p>
           </div>
-          <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
         </div>
-        <div class="about__content-skills">
-          <h3 class="about__content-title">My Skills</h3>
-          <div class="skills">
-            <div class="skills__skill">Java</div>
-            <div class="skills__skill">Spring Framework</div>
-            <div class="skills__skill">TypeScript</div>
-            <div class="skills__skill">JavaScript - ES6</div>
-            <div class="skills__skill">React</div>
-            <div class="skills__skill">Python</div>
-            <div class="skills__skill">HTML</div>
-            <div class="skills__skill">CSS</div>
-            <div class="skills__skill">SASS</div>
-            <div class="skills__skill">Rest APIs</div>
-            <div class="skills__skill">GIT/Github</div>
-            <div class="skills__skill">CI/CD</div>
-            <div class="skills__skill">MongoDB</div>
-            <div class="skills__skill">MySql</div>
-            <div class="skills__skill">Node.js</div>
-            <div class="skills__skill">Docker</div>
-            <div class="skills__skill">Wordpress</div>
-            <div class="skills__skill">Photoshop</div>
-            <div class="skills__skill">Illustrator</div>
-            <div class="skills__skill">Lightroom</div>
-          </div>
+
+        <div class="main-footer__lower">
+          &copy; Copyright 2022. Made by
+          <a rel="noreferrer" target="_blank" href="https://alanmiste.github.io"
+            >Alan Miste</a
+          >
         </div>
       </div>
-    </div>
-  </section>
-  <section id="projects" class="projects sec-pad">
-    <div class="main-container">
-      <h2 class="heading heading-sec heading-sec__mb-bg">
-        <span class="heading-sec__main">Projects</span>
-        <span class="heading-sec__sub">
-          These are some of my projects that I worked on to increase my experience.
-        </span>
-      </h2>
+    </footer>
 
-      <div class="projects__content">
-
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./assets/jpeg/SgcScreenshot-7.jpg" alt="Space Geeks Corner Screenshot"
-              class="projects__row-img" loading="lazy" />
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Space Geeks Corner</h3>
-            <p class="projects__row-content-desc">
-              It is an application that allows viewing of various images fetched from NASA via its API. The logged in user can add photos to his favourites or delete them if he no longer wants them. He can also create T-shirts Mockup from the photos he likes with just one click!
-            </p>
-            <a href="./spacegeekscorner.html" class="btn btn--med btn--theme dynamicBgClr">More...</a>
-          </div>
-        </div>
-
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./assets/jpeg/Redux-Shopping-Cart-Screenshot.jpg" alt="Redux Shopping Cart Screenshot"
-              class="projects__row-img" loading="lazy" />
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Redux Shopping Cart</h3>
-            <p class="projects__row-content-desc">
-              Redux Shopping Cart is a simple Web App, it was just to apply what I learned about Redux Toolkit.
-            </p>
-            <a href="./reduxshoppingcart.html" class="btn btn--med btn--theme dynamicBgClr">More...</a>
-          </div>
-        </div>
-
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./assets/jpeg/TodoAppScreenshot.jpg" alt="Todo-App-Java Screenshot"
-              class="projects__row-img" loading="lazy" />
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Todo-App-Java</h3>
-            <p class="projects__row-content-desc">
-              Todo-App is a simple application, consisting of a field for entering tasks and three sections
-              for each case, Open, In progress and Done. In addition to a Nav bar.
-            </p>
-            <a href="./todo-java-app.html" class="btn btn--med btn--theme dynamicBgClr">More...</a>
-          </div>
-        </div>
-
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./assets/jpeg/project1.jpg" alt="Project 1 Screenshot. Full-Stack Cookbook with React"
-              class="projects__row-img" loading="lazy" />
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Cookbook</h3>
-            <p class="projects__row-content-desc">
-              A Cookbook site is a simple site for displaying cooking recipes.
-              I coded it completely (front-end and back-end).
-            </p>
-            <a href="./project-1.html" class="btn btn--med btn--theme dynamicBgClr">More...</a>
-          </div>
-        </div>
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./assets/jpeg/project2.jpg" alt="Project 2 Screenshot. Todo List" class="projects__row-img"
-              loading="lazy" />
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Todo List</h3>
-            <p class="projects__row-content-desc">
-              Todo list app for writing daily tasks. Use your browser to record your daily tasks instead of pen and
-              paper.
-            </p>
-            <a href="./project-2.html" class="btn btn--med btn--theme dynamicBgClr">More...</a>
-          </div>
-        </div>
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./assets/jpeg/project3.jpg" alt="Project 3 Screenshot. Simple Calculator"
-              class="projects__row-img" loading="lazy" />
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Simple Calculator</h3>
-            <p class="projects__row-content-desc">
-              It's a simple calculator app with React.
-            </p>
-            <a href="./project-3.html" class="btn btn--med btn--theme dynamicBgClr">More...</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="contact" class="contact sec-pad dynamicBg">
-    <div class="main-container">
-      <h2 class="heading heading-sec heading-sec__mb-med">
-        <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-        <span class="heading-sec__sub heading-sec__sub--lt">
-          Feel free to email me!
-        </span>
-      </h2>
-      <div class="heading-sec__main heading-sec__main--lt" class="skills">
-        <div>
-          <input class="emailInput" value="alanhsnn@gmail.com" id="myInput" readonly>
-          <div class="tooltip">
-            <button class="btn btn--theme contact__btn" onclick="copyFunction()" onmouseout="outFunc()">
-              <span class="tooltiptext" id="myTooltip">Click to copy</span>
-              alanhsnn@gmail.com
-            </button>
-          </div>
-
-        </div>
-        <button onclick="location.href='mailto:alanhsnn@gmail.com';" class="btn btn--theme contact__btn">open my defualt
-          Email app</button>
-      </div>
-    </div>
-  </section>
-  <footer class="main-footer">
-    <div class="main-container">
-      <div class="main-footer__upper">
-        <div class="main-footer__row main-footer__row-1">
-          <h2 class="heading heading-sm main-footer__heading-sm">
-            <span>Social</span>
-          </h2>
-          <div class="main-footer__social-cont">
-            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/alanhassan">
-              <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon" />
-            </a>
-            <a target="_blank" rel="noreferrer" href="https://github.com/alanmiste">
-              <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon" />
-            </a>
-            <a target="_blank" rel="noreferrer" href="https://twitter.com/AlanMiste">
-              <img class="main-footer__icon" src="./assets/png/twitter-ico.png" alt="icon" />
-            </a>
-            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/alanmiste">
-              <img class="main-footer__icon" src="./assets/png/facebook-ico.png" alt="icon" />
-            </a>
-            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/alanmiste">
-              <img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/insta-ico.png" alt="icon" />
-            </a>
-          </div>
-        </div>
-        <div class="main-footer__row main-footer__row-2">
-          <h4 class="heading heading-sm text-lt">Alan Miste</h4>
-          <p class="main-footer__short-desc">
-            Java-Software / MERN-Stack Developer
-          </p>
-        </div>
-      </div>
-
-      <div class="main-footer__lower">
-        &copy; Copyright 2022. Made by
-        <a rel="noreferrer" target="_blank" href="https://alanmiste.github.io">Alan Miste</a>
-      </div>
-    </div>
-  </footer>
-
-  <script src="./index.js"></script>
-</body>
-
+    <script src="./index.js"></script>
+  </body>
 </html>
