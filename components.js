@@ -1,4 +1,4 @@
-//-- Generate Header--
+//---- Header ----
 const header = document.querySelector(".header");
 header.innerHTML = `
 <div class="header__content">
@@ -65,7 +65,8 @@ header.innerHTML = `
         </div>
       </div>
 `;
-//------------
+
+//---- Footer ----
 
 const footer = document.querySelector(".main-footer");
 footer.innerHTML = `
