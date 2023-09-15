@@ -102,6 +102,17 @@ footer.innerHTML = `
               <a
                 target="_blank"
                 rel="noreferrer"
+                href="https://alanmiste.wordpress.com"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/wordpress-ico.png"
+                  alt="wordpress icon"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
                 href="https://twitter.com/AlanMiste"
               >
                 <img
