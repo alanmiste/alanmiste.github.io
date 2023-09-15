@@ -85,7 +85,7 @@ footer.innerHTML = `
                 <img
                   class="main-footer__icon"
                   src="./assets/png/linkedin-ico.png"
-                  alt="icon"
+                  alt="linkedin icon"
                 />
               </a>
               <a
@@ -96,7 +96,7 @@ footer.innerHTML = `
                 <img
                   class="main-footer__icon"
                   src="./assets/png/github-ico.png"
-                  alt="icon"
+                  alt="github icon"
                 />
               </a>
               <a
@@ -106,8 +106,8 @@ footer.innerHTML = `
               >
                 <img
                   class="main-footer__icon"
-                  src="./assets/png/twitter-ico.png"
-                  alt="icon"
+                  src="./assets/png/x-twitter-icon.png"
+                  alt="x twitter icon"
                 />
               </a>
               <a
@@ -118,7 +118,7 @@ footer.innerHTML = `
                 <img
                   class="main-footer__icon"
                   src="./assets/png/facebook-ico.png"
-                  alt="icon"
+                  alt="facebook icon"
                 />
               </a>
               <a
@@ -129,7 +129,7 @@ footer.innerHTML = `
                 <img
                   class="main-footer__icon main-footer__icon--mr-none"
                   src="./assets/png/insta-ico.png"
-                  alt="icon"
+                  alt="instagram icon"
                 />
               </a>
             </div>
