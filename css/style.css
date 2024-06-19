@@ -243,7 +243,12 @@ textarea {
     margin: 3rem auto 0 auto;
     max-width: 80rem; }
   .home-hero__cta {
-    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* margin-top: 5rem; */
     text-align: center; }
 
 .about {
@@ -720,7 +725,7 @@ textarea {
   padding: 5px;
   position: absolute;
   z-index: 1;
-  bottom: 150%;
+  bottom: 100%;
   left: 50%;
   margin-left: -75px;
   opacity: 0;
@@ -747,6 +752,31 @@ textarea {
   display: none;
  
 }
-
-
 /* end of copy email style */
+
+/* Download CV Btn */
+.downloadBtn {
+  margin: 1rem;
+}
+body section div div a .downloadCv{
+  position: relative;
+  width: 1.5rem;
+  /* visibility: hidden; */
+}
+.downloadCv::after{
+  content: '\21D3';
+  font-size: 1.5rem;
+  position: absolute;
+  padding-left: 10px;
+  animation: down 1s linear infinite;
+}
+@keyframes down{
+  from{
+    top:-10px;
+    opacity: 0;
+  }
+  to{
+    top:10px;
+    opacity: 1;
+  }
+}
