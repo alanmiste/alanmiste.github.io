@@ -2,21 +2,24 @@ document.addEventListener("DOMContentLoaded", () => {
   const languageButtons = document.querySelectorAll(
     ".language-switcher button"
   );
-  const content = {
-    home: document.getElementById("lanHome"),
-    about: document.getElementById("lanAbout"),
-    projects: document.getElementById("lanProjects"),
-    contact: document.getElementById("lanContact"),
+
+  const contentElements = {
+    lanHome: "home",
+    lanAbout: "about",
+    lanProjects: "projects",
+    lanContact: "contact",
   };
 
   const loadLanguage = (lang) => {
     fetch(`./assets/json/${lang}.json`)
       .then((response) => response.json())
       .then((data) => {
-        content.home.textContent = data.home;
-        content.about.textContent = data.about;
-        content.projects.textContent = data.projects;
-        content.contact.textContent = data.contact;
+        for (const [id, key] of Object.entries(contentElements)) {
+          const element = document.getElementById(id);
+          if (element) {
+            element.textContent = data[key];
+          }
+        }
         localStorage.setItem("language", lang); // Save the selected language
       })
       .catch((error) => console.error("Error loading language file:", error));
