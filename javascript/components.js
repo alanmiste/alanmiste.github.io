@@ -13,20 +13,22 @@ header.innerHTML = `
           <h1 class="header__logo-sub">Alan Miste</h1>
         </div>
         <div class="header__main">
-          <ul class="header__links">
+        <div class="language-switcher">
+          <button data-lang="de">DE</button>
+          <button data-lang="en">EN</button>
+         </div>
+            <ul class="header__links">
             <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
+              <a href="./index.html#up" class="header__link" id="lanHome">Startseite</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
+              <a href="./index.html#about" class="header__link" id="lanAbout">Über mich</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projects
-              </a>
+              <a href="./index.html#projects" class="header__link" id="lanProjects">Projekte</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
+              <a href="./index.html#contact" class="header__link" id="lanContact">Kontakt</a>
             </li>
           </ul>
           <div class="header__main-ham-menu-cont">
