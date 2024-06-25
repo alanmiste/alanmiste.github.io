@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
       .then((data) => {
         contentElements.forEach((element) => {
           const key = element.getAttribute("data-translate-key");
-          console.log("key: " + key);
           if (data[key]) {
             element.textContent = data[key];
           }
