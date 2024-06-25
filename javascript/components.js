@@ -19,16 +19,16 @@ header.innerHTML = `
          </div>
             <ul class="header__links">
             <li class="header__link-wrapper">
-              <a href="./index.html#up" class="header__link" id="lanHome">Startseite</a>
+              <a href="./index.html#up" class="header__link" data-translate-key="home">Startseite</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link" id="lanAbout">Über mich</a>
+              <a href="./index.html#about" class="header__link" data-translate-key="about">Über mich</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link" id="lanProjects">Projekte</a>
+              <a href="./index.html#projects" class="header__link" data-translate-key="projects">Projekte</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link" id="lanContact">Kontakt</a>
+              <a href="./index.html#contact" class="header__link" data-translate-key="contact">Kontakt</a>
             </li>
           </ul>
           <div class="header__main-ham-menu-cont">
