@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         contentElements.forEach((element) => {
           const key = element.getAttribute("data-translate-key");
           if (data[key]) {
-            element.textContent = data[key];
+            element.innerHTML = data[key];
           }
         });
         localStorage.setItem("language", lang); // Save the selected language
