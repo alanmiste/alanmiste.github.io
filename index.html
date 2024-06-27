@@ -42,8 +42,9 @@
           <a
             href="./assets/pdf/Alan-Hassan-Lebenslauf.pdf"
             class="btn btn--bg downloadBtn"
+            data-translate-key="downloadCv"
             download
-            >Download CV <span class="downloadCv"></span
+            ><span class="downloadCv"></span
           ></a>
         </div>
       </div>
@@ -142,16 +143,20 @@
             <h3 class="about__content-title" data-translate-key="getToKnow">
               Lernen Sie mich kennen!
             </h3>
-            <div
-              class="about__content-details getToKnowMeText"
-              data-translate-key="getToKnowMeText"
-            ></div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
-              >Contact</a
-            >
+            <div class="about__content-details">
+              <p
+                class="about__content-details-para"
+                data-translate-key="getToKnowMeText"
+              ></p>
+            </div>
+            <a
+              href="./#contact"
+              class="btn btn--med btn--theme dynamicBgClr"
+              data-translate-key="contact"
+            ></a>
           </div>
           <div class="about__content-skills">
-            <h3 class="about__content-title">My Skills</h3>
+            <h3 class="about__content-title" data-translate-key="mySkills"></h3>
             <div class="skills">
               <div class="skills__skill">Java</div>
               <div class="skills__skill">Spring Framework</div>
@@ -181,11 +186,11 @@
     <section id="projects" class="projects sec-pad">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Projects</span>
-          <span class="heading-sec__sub">
-            These are some of my projects that I worked on to increase my
-            experience.
-          </span>
+          <span class="heading-sec__main" data-translate-key="projects"></span>
+          <span
+            class="heading-sec__sub"
+            data-translate-key="projectsText"
+          ></span>
         </h2>
 
         <div class="projects__content">
@@ -200,18 +205,15 @@
             </div>
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">Space Geeks Corner</h3>
-              <p class="projects__row-content-desc">
-                It is an application that allows viewing of various images
-                fetched from NASA via its API. The logged in user can add photos
-                to his favourites or delete them if he no longer wants them. He
-                can also create T-shirts Mockup from the photos he likes with
-                just one click!
-              </p>
+              <p
+                class="projects__row-content-desc"
+                data-translate-key="SpaceGeeksCornerHome"
+              ></p>
               <a
                 href="./spacegeekscorner.html"
                 class="btn btn--med btn--theme dynamicBgClr"
-                >More...</a
-              >
+                data-translate-key="more"
+              ></a>
             </div>
           </div>
 
@@ -233,8 +235,8 @@
               <a
                 href="./reduxshoppingcart.html"
                 class="btn btn--med btn--theme dynamicBgClr"
-                >More...</a
-              >
+                data-translate-key="more"
+              ></a>
             </div>
           </div>
 
@@ -260,8 +262,8 @@
               <a
                 href="./am-blog.html"
                 class="btn btn--med btn--theme dynamicBgClr"
-                >More...</a
-              >
+                data-translate-key="more"
+              ></a>
             </div>
           </div>
 
@@ -284,8 +286,8 @@
               <a
                 href="./todo-java-app.html"
                 class="btn btn--med btn--theme dynamicBgClr"
-                >More...</a
-              >
+                data-translate-key="more"
+              ></a>
             </div>
           </div>
 
@@ -307,8 +309,8 @@
               <a
                 href="./project-1.html"
                 class="btn btn--med btn--theme dynamicBgClr"
-                >More...</a
-              >
+                data-translate-key="more"
+              ></a>
             </div>
           </div>
           <div class="projects__row">
@@ -329,41 +331,24 @@
               <a
                 href="./project-2.html"
                 class="btn btn--med btn--theme dynamicBgClr"
-                >More...</a
-              >
+                data-translate-key="more"
+              ></a>
             </div>
           </div>
-          <!-- <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/project3.jpg"
-                alt="Project 3 Screenshot. Simple Calculator"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Simple Calculator</h3>
-              <p class="projects__row-content-desc">
-                It's a simple calculator app with React.
-              </p>
-              <a
-                href="./project-3.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                >More...</a
-              >
-            </div>
-          </div> -->
         </div>
       </div>
     </section>
     <section id="contact" class="contact sec-pad dynamicBg">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-          <span class="heading-sec__sub heading-sec__sub--lt">
-            Feel free to email me!
-          </span>
+          <span
+            class="heading-sec__main heading-sec__main--lt"
+            data-translate-key="contact"
+          ></span>
+          <span
+            class="heading-sec__sub heading-sec__sub--lt"
+            data-translate-key="emailMeText"
+          ></span>
         </h2>
         <div class="heading-sec__main heading-sec__main--lt" class="skills">
           <div>
@@ -379,7 +364,11 @@
                 onclick="copyFunction()"
                 onmouseout="outFunc()"
               >
-                <span class="tooltiptext" id="myTooltip">Click to copy</span>
+                <span
+                  class="tooltiptext"
+                  id="myTooltip"
+                  data-translate-key="clickToCopy"
+                ></span>
                 alanhsnn@gmail.com
               </button>
             </div>
@@ -387,9 +376,8 @@
           <button
             onclick="location.href='mailto:alanhsnn@gmail.com';"
             class="btn btn--theme contact__btn"
-          >
-            open my defualt Email app
-          </button>
+            data-translate-key="defualtEmailApp"
+          ></button>
         </div>
       </div>
     </section>

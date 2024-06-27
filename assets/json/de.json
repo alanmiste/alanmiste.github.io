@@ -2,7 +2,18 @@
     "home": "Startseite",
     "about": "Über mich",
     "projects": "Projekte",
+    "downloadCv": "Lebenslauf herunterladen",
     "contact": "Kontakt",
+    "more": "Mehr...",
     "aboutText":"Ich habe 2010 meinen Bachelor-Abschluss in Computer Systems gemacht. Ich arbeitete vier Jahre lang als Technischer Support-Mitarbeiter in Syrien, bevor ich emigrierte. Ich habe eine Leidenschaft für Programmierung und habe an der Universität mehrere Programmiersprachen gelernt, darunter C, C++, C# und Java. Nach meinem Umzug nach Deutschland habe ich Kurse in Webentwicklung und Java-Entwicklung besucht. Jetzt kann ich mich als Junior MERN-Stack / Java-Softwareentwickler beschreiben.",
-    "getToKnow":"Lernen Sie mich kennen!"
+    "getToKnow":"Lernen Sie mich kennen!",
+    "getToKnowMeText": "Hallo! Ich bin <strong>Alan Miste/Hassan</strong> ein <strong> Full-Stack Webentwickler </strong>/<strong> Java-Softwareentwickler</strong>. Während meiner <strong>(Weiterbildung)</strong> in der <strong>  Webentwicklung und Java-Softwareentwicklung </strong>habe ich mehrere Projekte als Übung abgeschlossen, bei denen sowohl <strong>front-end</strong> als auch <strong>back-end</strong> Webentwicklungstechniken verwendet wurden.</p> <p class='about__content-details-para'> Ich bin ein kleiner Technikfreak und habe im Laufe der Jahre Hunderte von Web- und mobilen Apps benutzt. Ich habe eine Leidenschaft für Programmierung und Codierung. Außerdem habe ich Hobbys im Bereich Design und Fotobearbeitung sowie einige andere Hobbys außerhalb des technischen Bereichs. Ich interessiere mich auch für Astronomie. Zögern Sie nicht, mich hier zu <strong>kontaktieren</strong>.",
+    "mySkills": "Meine Fähigkeiten",
+    "projectsText": "Dies sind einige meiner Projekte, an denen ich gearbeitet habe, um meine Erfahrungen zu erweitern.",
+    "SpaceGeeksCornerHome": "Es ist eine Anwendung, die das Anzeigen verschiedener Bilder ermöglicht, die über die API von der NASA abgerufen werden. Der eingeloggte Benutzer kann Fotos zu seinen Favoriten hinzufügen oder löschen, wenn er sie nicht mehr möchte. Er kann auch T-Shirt-Mockups aus den Fotos erstellen, die ihm gefallen, und das mit nur einem Klick!",
+    "emailMeText": "Schreiben Sie mir gerne eine E-Mail!",
+    "clickToCopy": "Zum Kopieren klicken",
+    "defualtEmailApp": "Standard E-Mail-App öffnen",
+    "javaMernFooter": "Java-Software / MERN-Stack-Entwickler",
+    "followMe": "Folgen Sie mir auf:"
 }

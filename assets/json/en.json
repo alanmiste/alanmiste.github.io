@@ -1,8 +1,19 @@
 {
     "home": "Home",
     "about": "About",
-    "projects":"Projects",
-    "contact":"Contact",
-    "aboutText":"I graduated with a BA in Computer Systems in 2010. I worked for four years as a Technical Support Officer in Syria before emigrating. I am passionate about programming and learned several programming languages at university, including C, C++, C#, and Java. After moving to Germany, I took courses in Web Development and Java Development. Now, I can describe myself as a Junior MERN-stack / Java Software Developer.",
-    "getToKnow":"Get to know me!"
+    "projects": "Projects",
+    "downloadCv": "Download CV",
+    "contact": "Contact",
+    "more": "More...",
+    "aboutText": "I graduated with a BA in Computer Systems in 2010. I worked for four years as a Technical Support Officer in Syria before emigrating. I am passionate about programming and learned several programming languages at university, including C, C++, C#, and Java. After moving to Germany, I took courses in Web Development and Java Development. Now, I can describe myself as a Junior MERN-stack / Java Software Developer.",
+    "getToKnow": "Get to know me!",
+    "getToKnowMeText": "Hey! It's <strong>Alan Miste/Hassan</strong> and I'm a <strong> Frontend/MERN-Stack Web Developer </strong> ,<strong> Java Software Developer </strong> located in Germany. During the period of further education <strong>(Weiterbildung)</strong> within the <strong> web development course and Java-Sowftware development </strong>, I completed several projects were as a training, in which web development techniques were used, whether for the <strong>front-end</strong> or <strong>back-end</strong>. </p> <p class='about__content-details-para'> I'm a bit of a digital product geek. Over the years, I've used hundreds of web and mobile apps. I'm passionate about programming and coding. I also have hobbies in designing and editing photos, in addition to some other hobbies outside the technical field. I am also interested in astronomy. Feel free to <strong>contact</strong> me here.",
+    "mySkills": "My Skills",
+    "projectsText": "These are some of my projects that I worked on to increase my experience.",
+    "SpaceGeeksCornerHome": "It is an application that allows viewing of various images fetched from NASA via its API. The logged in user can add photos to his favourites or delete them if he no longer wants them. He can also create T-shirts Mockup from the photos he likes with just one click!",
+    "emailMeText": "Feel free to email me!",
+    "clickToCopy": "Click to copy",
+    "defualtEmailApp": "open defualt Email app",
+    "javaMernFooter": "Java-Software / MERN-Stack Developer",
+    "followMe": "Follow Me on:"
 }
