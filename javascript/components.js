@@ -76,7 +76,7 @@ footer.innerHTML = `
         <div class="main-footer__upper">
           <div class="main-footer__row main-footer__row-1">
             <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
+              <span data-translate-key="followMe"></span>
             </h2>
             <div class="main-footer__social-cont">
               <a
@@ -149,8 +149,7 @@ footer.innerHTML = `
           </div>
           <div class="main-footer__row main-footer__row-2">
             <h4 class="heading heading-sm text-lt">Alan Miste</h4>
-            <p class="main-footer__short-desc">
-              Java-Software / MERN-Stack Developer
+            <p class="main-footer__short-desc" data-translate-key="javaMernFooter">
             </p>
           </div>
         </div>
