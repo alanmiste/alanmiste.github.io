@@ -69,9 +69,10 @@ header.innerHTML = `
 `;
 
 //---- Footer ----
-
+const copyrightDate = new Date().getFullYear();
 const footer = document.querySelector(".main-footer");
-footer.innerHTML = `
+footer.innerHTML =
+  `
  <div class="main-container">
         <div class="main-footer__upper">
           <div class="main-footer__row main-footer__row-1">
@@ -156,9 +157,9 @@ footer.innerHTML = `
 
         <div class="main-footer__lower">
           &copy; Copyright
-          <script>
-            document.write(new Date().getFullYear());
-          </script>
+          ` +
+  copyrightDate +
+  `
           . Made by
           <a rel="noreferrer" target="_blank" href="https://alanmiste.github.io"
             >Alan Miste</a
