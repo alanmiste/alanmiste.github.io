@@ -20,5 +20,11 @@
     "clickToCopy": "Zum Kopieren klicken",
     "defualtEmailApp": "Standard E-Mail-App öffnen",
     "javaMernFooter": "Java-Software / MERN-Stack-Entwickler",
-    "followMe": "Folgen Sie mir auf:"
+    "followMe": "Folgen Sie mir auf:",
+    "projectOverview": "Projektübersicht",
+    "projectOverviewText": "<p class='project-details__desc-para'><strong>Warum?</strong><br />In meiner Freizeit entwerfe ich Fotos, und manchmal dauert das Designen lange, daher wünschte ich mir immer, es wäre einfacher. So entstand die Idee, eine Anwendung zu erstellen, die Designs mit den geringstmöglichen Schritten erstellt, und ich denke, weniger als ein Klick ist nicht möglich. Da ich ein Weltraum-Fan bin, konnte ich kein besseres Thema als Weltraumbilder finden, um der Held dieser App zu sein.</p><p class='project-details__desc-para'><strong>Was?!</strong><br />Es ist eine Anwendung, die das Anzeigen verschiedener Bilder ermöglicht, die über die API von der NASA abgerufen werden. Der eingeloggte Benutzer kann Fotos zu seinen Favoriten hinzufügen oder löschen, wenn er sie nicht mehr möchte. Er kann auch T-Shirt-Mockups aus den Fotos erstellen, die ihm gefallen, und das mit nur einem Klick!</p><p class='project-details__desc-para'><strong>Wie?!</strong><br />Mit den folgenden Techniken konnte ich diese Anwendung erstellen:</p>",
+    "toolsUsed": "Verwendete Technologien",
+    "seeLive": "Live ansehen",
+    "seeLiveText": "Zunächst habe ich das Projekt auf Herokus kostenlosem Hosting-Plan bereitgestellt. Allerdings wurde der kostenlose Plan vor Kurzem eingestellt. Als Reaktion auf die Benachrichtigung über die Einstellung des kostenlosen Plans habe ich ein Präsentationsvideo erstellt, das die Funktionalität und das Erscheinungsbild der App zeigt.<br />Dieses Video dient als vorübergehende Lösung, damit Besucher die App schnell sehen und erleben können, ohne das Repository zu klonen oder Bibliotheken zu installieren.",
+    "goToVideo": "Zum Video gehen"
 }

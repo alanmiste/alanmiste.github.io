@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -45,32 +45,17 @@
           </div>
           <div class="project-details__content-main">
             <div class="project-details__desc">
-              <h3 class="project-details__content-title">Project Overview</h3>
-              <p class="project-details__desc-para">
-                <strong>Why?</strong><br />
-                In my free time I design photos, and sometimes the design takes
-                a long time, so I always wished it would be easier. Hence the
-                idea to create an application that creates designs in the fewest
-                steps possible, and I don't think there is less than one click.
-                And since I'm a space geek, I couldn't find a better than space
-                photo to be the hero of this app.
-              </p>
-              <p class="project-details__desc-para">
-                <strong>What?!</strong><br />
-                It is an application that allows viewing of various images
-                fetched from NASA via its API. The logged in user can add photos
-                to his favourites or delete them if he no longer wants them. He
-                can also create T-shirts Mockup from the photos he likes with
-                just one click!
-              </p>
-              <p class="project-details__desc-para">
-                <strong>How?!</strong><br />
-                Using the following techniques I was able to create this
-                application:
-              </p>
+              <h3
+                class="project-details__content-title"
+                data-translate-key="projectOverview"
+              ></h3>
+              <div data-translate-key="projectOverviewText"></div>
             </div>
             <div class="project-details__tools-used">
-              <h3 class="project-details__content-title">Tools Used</h3>
+              <h3
+                class="project-details__content-title"
+                data-translate-key="toolsUsed"
+              ></h3>
               <div class="skills">
                 <div class="skills__skill">Java</div>
                 <div class="skills__skill">Spring Framework</div>
@@ -92,23 +77,20 @@
               </div>
             </div>
             <div id="seeLive" class="project-details__links">
-              <h3 class="project-details__content-title">See Live</h3>
-              <p class="project-details__desc-para">
-                I initially deployed the project on Heroku's free hosting plan.
-                However, recently, the free plan has been discontinued. In
-                response to their notification about the cancellation of the
-                free plan, I created a presentation video showcasing the app's
-                functionality and appearance.<br />
-                This video serves as a temporary solution, allowing visitors to
-                quickly view and experience the app without the need to clone
-                the repository or install any libraries.
-              </p>
+              <h3
+                class="project-details__content-title"
+                data-translate-key="seeLive"
+              ></h3>
+              <p
+                class="project-details__desc-para"
+                data-translate-key="seeLiveText"
+              ></p>
               <a
                 href="https://youtu.be/Vfjd2eig3BU"
                 class="btn btn--med btn--theme project-details__links-btn"
                 target="_blank"
-                >Go to video</a
-              >
+                data-translate-key="goToVideo"
+              ></a>
               <a
                 href="https://github.com/alanmiste/SpaceGeeksCorner"
                 class="btn btn--med btn--theme-inv project-details__links-btn"
@@ -122,6 +104,7 @@
     </section>
     <footer class="main-footer"></footer>
     <script src="./index.js"></script>
-    <script src="./components.js"></script>
+    <script src="./javascript/components.js"></script>
+    <script src="./javascript/languages.js"></script>
   </body>
 </html>
