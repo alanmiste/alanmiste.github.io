@@ -11,12 +11,12 @@ header.innerHTML = `
             />
           </div>
           <h1 class="header__logo-sub">Alan Miste</h1>
+          <div class="language-switcher">
+            <button data-lang="de">&#127465&#127466</button>
+            <button data-lang="en">&#127468&#127463</button>
+         </div>
         </div>
         <div class="header__main">
-        <div class="language-switcher">
-          <button data-lang="de">DE</button>
-          <button data-lang="en">EN</button>
-         </div>
             <ul class="header__links">
             <li class="header__link-wrapper">
               <a href="./index.html#up" class="header__link" data-translate-key="home">Startseite</a>
