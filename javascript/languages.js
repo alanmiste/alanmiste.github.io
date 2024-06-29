@@ -15,6 +15,12 @@ document.addEventListener("DOMContentLoaded", () => {
           }
         });
         localStorage.setItem("language", lang); // Save the selected language
+        languageButtons.forEach((button) => {
+          button.classList.toggle(
+            "active",
+            button.getAttribute("data-lang") === lang
+          );
+        });
       })
       .catch((error) => console.error("Error loading language file:", error));
   };
