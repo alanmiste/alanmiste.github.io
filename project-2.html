@@ -48,25 +48,19 @@
             />
           </div>
           <div class="project-details__content-main">
-            <div class="project-details__desc">
-              <h3 class="project-details__content-title">Project Overview</h3>
-              <p class="project-details__desc-para">
-                Todo list app is a light, fast and easy application to record
-                daily tasks on the mobile through the browser instead of using a
-                pen and paper. I used html and css to build the application
-                architecture, and javascript for functionality. The entries are
-                stored in the browser's local storage using JSON format.
-              </p>
-              <p class="project-details__desc-para">
-                The data remains visible on the page as long as it is not
-                cleared from the browser's local storage, either through browser
-                settings or through the application itself. As there is an
-                option to delete the missions individually or collectively when
-                they are completed. There is also an option to edit.
-              </p>
-            </div>
+            <h3
+              class="project-details__content-title"
+              data-translate-key="projectOverview"
+            ></h3>
+            <div
+              class="project-details__desc"
+              data-translate-key="todoListText"
+            ></div>
             <div class="project-details__tools-used">
-              <h3 class="project-details__content-title">Tools Used</h3>
+              <h3
+                class="project-details__content-title"
+                data-translate-key="toolsUsed"
+              ></h3>
               <div class="skills">
                 <div class="skills__skill">HTML</div>
                 <div class="skills__skill">CSS</div>
@@ -77,7 +71,10 @@
               </div>
             </div>
             <div class="project-details__links">
-              <h3 class="project-details__content-title">See Live</h3>
+              <h3
+                class="project-details__content-title"
+                data-translate-key="seeLive"
+              ></h3>
               <a
                 href="https://alanmiste.github.io/todolist"
                 class="btn btn--med btn--theme project-details__links-btn"
@@ -97,6 +94,7 @@
     </section>
     <footer class="main-footer"></footer>
     <script src="./index.js"></script>
-    <script src="./components.js"></script>
+    <script src="./javascript/components.js"></script>
+    <script src="./javascript/languages.js"></script>
   </body>
 </html>

@@ -11,22 +11,24 @@ header.innerHTML = `
             />
           </div>
           <h1 class="header__logo-sub">Alan Miste</h1>
+          <div class="language-switcher">
+            <button data-lang="de">&#127465&#127466</button>
+            <button data-lang="en">&#127468&#127463</button>
+         </div>
         </div>
         <div class="header__main">
-          <ul class="header__links">
+            <ul class="header__links">
             <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
+              <a href="./index.html#up" class="header__link" data-translate-key="home">Startseite</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
+              <a href="./index.html#about" class="header__link" data-translate-key="about">Über mich</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projects
-              </a>
+              <a href="./index.html#projects" class="header__link" data-translate-key="projects">Projekte</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
+              <a href="./index.html#contact" class="header__link" data-translate-key="contact">Kontakt</a>
             </li>
           </ul>
           <div class="header__main-ham-menu-cont">
@@ -47,19 +49,19 @@ header.innerHTML = `
         <div class="header__sm-menu-content">
           <ul class="header__sm-menu-links">
             <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
+              <a href="./index.html" data-translate-key="home"> Home </a>
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="./index.html#about"> About </a>
+              <a href="./index.html#about" data-translate-key="about"> About </a>
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
+              <a href="./index.html#projects" data-translate-key="projects"> Projects </a>
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
+              <a href="./index.html#contact" data-translate-key="contact"> Contact </a>
             </li>
           </ul>
         </div>
@@ -67,14 +69,15 @@ header.innerHTML = `
 `;
 
 //---- Footer ----
-
+const copyrightDate = new Date().getFullYear();
 const footer = document.querySelector(".main-footer");
-footer.innerHTML = `
+footer.innerHTML =
+  `
  <div class="main-container">
         <div class="main-footer__upper">
           <div class="main-footer__row main-footer__row-1">
             <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
+              <span data-translate-key="followMe"></span>
             </h2>
             <div class="main-footer__social-cont">
               <a
@@ -147,17 +150,16 @@ footer.innerHTML = `
           </div>
           <div class="main-footer__row main-footer__row-2">
             <h4 class="heading heading-sm text-lt">Alan Miste</h4>
-            <p class="main-footer__short-desc">
-              Java-Software / MERN-Stack Developer
+            <p class="main-footer__short-desc" data-translate-key="javaMernFooter">
             </p>
           </div>
         </div>
 
         <div class="main-footer__lower">
           &copy; Copyright
-          <script>
-            document.write(new Date().getFullYear());
-          </script>
+          ` +
+  copyrightDate +
+  `
           . Made by
           <a rel="noreferrer" target="_blank" href="https://alanmiste.github.io"
             >Alan Miste</a
