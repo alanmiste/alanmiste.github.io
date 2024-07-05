@@ -758,28 +758,6 @@ textarea {
 .downloadBtn {
   margin: 1rem;
 }
-body section div div a .downloadCv{
-  position: relative;
-  width: 1.5rem;
-  /* visibility: hidden; */
-}
-.downloadCv::after{
-  content: '\21D3';
-  font-size: 1.5rem;
-  position: absolute;
-  padding-left: 10px;
-  animation: down 1s linear infinite;
-}
-@keyframes down{
-  from{
-    top:-10px;
-    opacity: 0;
-  }
-  to{
-    top:10px;
-    opacity: 1;
-  }
-}
 
 .language-switcher{
   padding-left: 10px;
